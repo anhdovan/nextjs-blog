@@ -12,7 +12,7 @@ export async function getStaticProps({ params }) {
     };
 }
 
-import Layout from '../../components/layout';
+import Layout from '../../components/Layout';
 
 export async function getStaticPaths() {
     const paths = getAllPostIds();
